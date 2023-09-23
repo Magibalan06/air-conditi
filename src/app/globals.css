@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.touchBtn {
+  border-color: #0057FF;
+  transition-property: background-color color;
+  transition-duration: 0.4s;
+  transition-delay: 0.1s;
+  color: #00205C
+}
+
+.touchBtn:hover {
+  border-color: #0057FF;
+  background-color: #0057FF;
+  color: white;
+}
+
+.servicesBtn {
+  border-color: #0057FF;
+  background-color: #0057FF;
+  transition-property: background-color color;
+  transition-duration: 0.4s;
+  transition-delay: 0.1s;
+  color: white;
+}
+
+.servicesBtn:hover {
+  border-color: #0057FF;
+  color: #00205C;
+  background-color: white
+}
+
+.imageContainer {
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.imageContainer img {
+  /* width: 100%; */
+  transition: 0.5s all ease-in-out;
+}
+
+.imageContainer:hover img {
+  transform: scale(1.2);
+}
+
+.scrolling-text{
+  animation: scroll 0.5s linear 1
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateY(50%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0%);
+      opacity: 1;
+  }
+}
+
+.check-box {
+  width: 30px;
+  height: 30px;
+  background-color: #0057ff;
+  background-image: url(https://assets.website-files.com/63fcdfb…/63fdfcd…_Icon.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
