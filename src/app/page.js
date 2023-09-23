@@ -82,7 +82,7 @@ export default function Home() {
           <div className="lg:w-7/12 w-11/12 mt-24 pl-7 pb-32 m-auto">
             <p className="text-lg font-medium scrolling-text" style={{color: "#0057FF"}}>#1 HVAC System Services in USA</p>
             <p className="md:text-6xl sm:text-4xl text-2xl scrolling-text font-bold mt-5" style={{color: "#00205c", lineHeight: "110%"}}>Air conditioning system for your home and office comfort</p>
-            <p className="sm:text-lg text-base font-medium mt-7 scrolling-text" style={{color: "#5f6e89"}} >Customers worldwide rely on Air Conditioning's innovative solutions and services to meet their most essential needs and overcome their biggest challenges in various settings.</p>
+            <p className="sm:text-lg text-base font-medium mt-7 scrolling-text" style={{color: "#5f6e89"}} >Customers worldwide rely on Air Conditioning{`'`}s innovative solutions and services to meet their most essential needs and overcome their biggest challenges in various settings.</p>
             <div className="flex flex-wrap mt-10 scrolling-text">
               <div className="cursor-pointer mb-4 mr-4">
                 <p className="border servicesBtn rounded-full px-7 py-3 text-lg">Services</p>
